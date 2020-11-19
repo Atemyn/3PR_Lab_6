@@ -37,6 +37,22 @@ namespace _3PR_Lab_6
 			/*...............................*/
 
 			const int amount = 2;
+			/* Массив экземпляров. */
+			Building[] firstArrayOfDyn = new Building[amount];
+			Building[] secondArrayOfDyn = new Building[amount];
+			for (int i = 0; i < amount; i++)
+			{
+				firstArrayOfDyn[i] = new Building();
+				secondArrayOfDyn[i] = new Building();
+			}
+
+			Console.WriteLine("\nМассив объектов: ");
+
+			firstArrayOfDyn[0].inputBuilding();
+			secondArrayOfDyn[1].initBuilding();
+
+			firstArrayOfDyn[0].addToBuilding(secondArrayOfDyn[1]);
+			/*..............................*/
 		}
 	}
 }
