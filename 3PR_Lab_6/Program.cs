@@ -7,6 +7,7 @@ namespace _3PR_Lab_6
     {
         static void Main(string[] args)
         {
+
         }
 	}
 }
