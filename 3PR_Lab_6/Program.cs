@@ -53,6 +53,16 @@ namespace _3PR_Lab_6
 
 			firstArrayOfDyn[0].addToBuilding(secondArrayOfDyn[1]);
 			/*..............................*/
+
+			/* Новые функции Ассоциации. */
+			Building building = new Building();
+			Console.WriteLine("\nНовые функции Ассоциации: ");
+
+			building.inputBuilding();
+
+			building.openWindowsOnFacade();
+			building.closeWindowsOnFacade();
+			/*..........................*/
 		}
 	}
 }
