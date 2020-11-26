@@ -23,11 +23,11 @@ namespace _3PR_Lab_6
 			firstBuilding.removeFloors();
 			/*............................................*/
 
-			/* Динамический массив экземпляров. */
+			/* Список экземпляров. */
 			List<Building> firstDynamicArray = new List<Building>();
 			Building helpBuilding = new Building();
 
-			Console.WriteLine("\nДинамический массив объектов: ");
+			Console.WriteLine("\nСписок объектов: ");
 
 			firstDynamicArray.Add(new Building());
 			firstDynamicArray[0].inputBuilding();
